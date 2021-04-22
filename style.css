@@ -1,8 +1,187 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Amiri', serif;
   background-color: #000078;
 }
 
+div.container {
+  height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+  width: 400px;
+  align-content: strech;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+
+div.button {
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+
+  margin: 10px 0 0 0;
+  background-color: #03031F; 
+  height: 2em;
+  line-height: 2.1em;
+  white-space: nowrap;
+  width: 400px;
+}
+
+div.name {
+  color: #FBD500;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+div.subpage {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  }  
+
+div.about {
+  color: #FBD500;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+
+}
+
+a.subpage {
+  color: white;
+  text-decoration: none;
+}
+
+div.subpage:hover {
+  color: #000078;
+}
+
+div.about:hover {
+  color: #775E0B;
+}
+
+#subpage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+div.subpage-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #040457;
+  margin: 0 auto ;
+  width: 90%;
+  height: 85%;
+  padding: 1em;
+}
+
+nav.box1 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin: 0 2em 2em 2.5em;
+  flex-basis: 25%;
+}
+
+header.title {
+ flex-grow: 1; 
+}
+
+footer.page-links {
+}
+
+main.box2 {
+  display: flex;
+  margin: 1em 4em 1em 4em;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: white;
+}
+
+p.top {
+  margin: 1.5em 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h1 { 
+  color: #FBD500;
+  font-weight: normal;
+  margin: 1em auto 0 auto;
+  font-size: 2.3em;
+}
+
+h2 {
+  margin: 0;
+  color: white;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 2em;
+}
+
+div.nav-button {
+  margin: 10px 0 0 0;
+  background-color: #03031F; 
+  height: 2em;
+  line-height: 2.1em;
+  white-space: nowrap;
+  width: 12.3em;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+div.nav-about {
+  text-decoration: none;
+  color: #FBD500;
+}
+
+div.nav-subpage {
+  color: white;
+}
+
+div.nav-subpage:hover {
+  color: #000078;
+}
+
+a.subpage {
+  color: white;
+}
+
+a.subpage:hover {
+  color: #000078;
+}
+
+a.about {
+  text-decoration: none;
+}
+
+div.nav-about {
+  text-decoration: none;
+  color: #FBD500;
+} 
+
+div.nav-about:hover {
+  color: #775E0B;
+}
+
+a.title {
+  text-decoration: none;
+  color: #FBD500;
+}
+
+a.title:hover {
+  color: #775E0B;
+  transition-duration: .3s;
+}
