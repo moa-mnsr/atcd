@@ -1,1 +1,1 @@
-Personal Website of ATC Dobson - writer, teacher, & translator
+Professional website of Andrew Dobson - writer, teacher, & translator
