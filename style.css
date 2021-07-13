@@ -2,7 +2,7 @@
 
 
 html, body {
-    height: 100%;
+    height: 100vh;
 }
 
 body {
@@ -43,11 +43,11 @@ div.language a:hover {
 /* nav left side */
 
 div.flexbox-nav {
+    margin: 10vmin 0 10vmin 0;
+    flex: 2;
     height: 34vh;
-    margin: 10vmin 0 0 14vmin ;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
+    justify-content: center;
 }
 
 h1 {
@@ -56,45 +56,74 @@ h1 {
 }
 
 nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+section {
     line-height: 1.5;
     font-size: 4vmin;
 }
 
-nav div span {
+section div span {
     font-style: italic;
 }
 
-nav div span:hover {
+section div span:hover {
     color: #000077;
     cursor: pointer;
     transition: color .3s;
 }
 
-h2 {
+h2 a {
     font-size: 4vmin;
     font-weight: 500;
+    text-decoration: none;
+    color: #050505;
 }
 
-h1:hover, h2:hover {
+h1:hover, h2 a:hover {
     color: #00753B;
     cursor: pointer;
     transition: color .3s;
 }
 
-/* content right side */
+/* content middle */
 
-div.flexbox-content {
-    flex: 1;
-    display: flex;
-    justify-content: left;
-}
-
-
-main {
-    margin: 45vmin 0 0 45vmin;
+div.picture {
+    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100vh;
+}
+
+div.picture img {
+    width: 60vh;
+}
+
+/* content right side 
+
+div.flexbox-main {
+
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100vh;
+
+}
+
+main {
+    display: flex;
+}
+
+main div.text {
+    margin-bottom: 12vmin;
+    padding: 0 0 0 25vmin;
+    display: flex;
+    flex-direction: column;
 }
 
 main p {
@@ -113,54 +142,4 @@ main a:hover {
     color: #000077;
 }
 
-
-div.easter-egg {
-    visibility: hidden;
-}
-
-div.easter-egg svg {
-    position: fixed;
-    bottom: 3vmin;
-    right: 5vmin;
-  }
-
-
-  div.easter-egg svg {
-      fill: #050505;
-      transition: all .7s ease-in-out;
-      width: 2vmin;
-  }
-
-  div.easter-egg svg:hover {
-    fill: #00753B;
-    cursor: pointer;
-    transform: rotate(360deg);
-}
-
-div.easter-egg div.img-1 img {
-    position: fixed;
-    bottom: 10vmin;
-    left: 58vmin;
-    width: 250px;
-}
-
-div.easter-egg div.img-2 img {
-    position: fixed;
-    bottom: 30vmin;
-    right: 15vmin;
-    width: 250px;
-}
-
-div.easter-egg div.img-3 img {
-    position: fixed;
-    top: 10vmin;
-    left: 100vmin;
-    height: 175px;
-}
-
-div.easter-egg div.img-4 img {
-    position: fixed;
-    bottom: 25vmin;
-    left: 13vmin;
-    width: 150px;
-}
+*/
